@@ -2,7 +2,6 @@
 
 /recovery       mtd             recovery
 /boot		mtd		boot
-/misc           mtd             misc
 /cache          yaffs2          cache
 /system         yaffs2          system
 /data		yaffs2		userdata

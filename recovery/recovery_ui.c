@@ -62,7 +62,7 @@ int device_handle_key(int key_code, int visible) {
             case KEY_VOLUMEDOWN:
                 return HIGHLIGHT_DOWN;
 
-            case KEY_SLEEP:
+            case KEY_POWER:
                 if (ui_get_showing_back_button()) {
                     return SELECT_ITEM;
                 }
